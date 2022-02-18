@@ -1,0 +1,215 @@
+
+/* for larger screens *//* for tablets */
+/* for tablets */
+@media (min-width: 664px) and (max-width:1195px){
+    .navigation ul{
+        gap:0;
+    }
+    .hero-items div h1{
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: 1px; 
+          
+    }
+    .update-order{
+        position:relative;
+        top: 18rem;
+    }
+    .update form{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .update input{
+        margin-left: 0;
+    }
+    .hero-images{
+        right: 3rem;
+    }
+    .hero-items{
+        left: 2rem;
+
+    }
+    .berry{
+        bottom: -1rem;
+        left: 7rem;
+        
+    }
+    .spanBtn button{
+      margin-top: 2rem;
+      display: block;
+    }
+}
+
+/* For smartphones */
+
+@media (max-width:667px){
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding:0 2rem;
+        position: unset;
+        
+    }
+    
+    .logo{
+        margin-top: 1.7rem;
+    }
+    .toggle-button {
+        display: flex;
+       margin: 1rem 0 0 0;
+    }
+
+    .navigation {
+        display: none;
+        width: 100%;
+        background: pink;
+        margin-top: 1rem;
+        
+    }
+
+    .navigation ul {
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    .navigation ul li {
+        text-align: center;
+    
+    }
+
+    .navigation ul li a {
+        padding: 1rem 0rem;
+    }
+
+    .navigation.active {
+        display: flex;
+    }
+    .navigation ul li a:hover{
+        background:rgb(250, 153, 170);
+       
+    }
+    li a::after{
+        border-bottom:none;
+        transition:none;
+        
+    }
+    li a:hover::after{
+        width: 100%;
+    }
+    .hero{
+        flex-direction: column;
+        position: unset;
+    }
+    .glitt{
+        display:block;
+    }
+    .hero-images{
+        width: 528px;
+        height: 438px;
+        top: 5rem;
+        left: 1rem;
+        transform: rotate(86deg);
+        
+    }
+        
+    .berry{
+        top: 3rem;
+       left: 6rem;
+       transform: rotate(-78deg);
+
+       
+    }
+    .hero-items{
+        top: 30rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: 8rem;
+        gap: 1rem;
+    }
+    .hero-items div h1{
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 1px; 
+          
+    }
+    .spanBtn button{
+        margin-left: 0;
+        margin-top: 1rem;
+
+    }
+    .spanBtn span{
+        display: block;
+    }
+
+    .update-order{
+        position:relative;
+        top: 52rem;
+
+    }
+    .updateOrder{
+        flex-direction: column;
+       
+    }
+  
+    .update{
+        padding: 2rem 0;
+        flex-direction: column;
+    }
+    .update form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .order{
+        display: none;
+    }
+
+}
+@media (max-width:450px){
+    .hero{
+        flex-direction: column;
+        position: unset;
+    }
+    .glitt{
+        display:block;
+    }
+    .hero-images{
+        width: 432px;
+        height: 357px;
+        top: 5rem;
+        left: -3rem;
+        transform: rotate(86deg);
+        
+    }
+        
+    .berry{
+        top: 3rem;
+       left: 6rem;
+       transform: rotate(-78deg);
+
+       
+    }
+    .hero-items{
+        top: 24rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: 6rem;
+    }
+    .hero-items div h1{
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 1px; 
+          
+    }
+    .update-order{
+        top: 55rem;
+
+    }
+}
